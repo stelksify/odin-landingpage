@@ -36,7 +36,7 @@ button {
 .footer {
     display: flex;
     align-items: center;
-    padding: 16px;
+    padding: 16px 96px;
     background-color: #1F2937;
 }
 
@@ -113,7 +113,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 64px;
-    padding: 32px 64px;
+    padding: 64px 64px;
 }
 
 .card {
@@ -129,4 +129,24 @@ button {
     border: 6px solid #3882F6;
     border-radius: 32px;
     margin-bottom: 16px;
+}
+
+/* --- QUOTE CONTENT --- */
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 96px 256px;
+}
+
+.quote .text {
+    margin: 0 96px 0 auto;
+    color: #1F2937;
+    font-style: normal;
+    font-weight: bold;
 }
